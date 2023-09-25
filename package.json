@@ -1,0 +1,23 @@
+{
+  "name": "ui-test",
+  "version": "1.0.0",
+  "description": "It is a ui-test",
+ 
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "jest",
+    "build": "parcel build index.html"
+  },
+  "author": "Rohit kumar",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.9.3",
+    "postcss": "^8.4.30",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.3.3"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

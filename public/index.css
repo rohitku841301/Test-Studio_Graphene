@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-stroke {
+    /* -webkit-text-stroke: 1px white;
+    color: transparent;  */
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+  }
+
+.image-cut{
+    clip: rect(0px,1400px,659px,0px);
+}
+
+.backMenu{
+  background-color:black;
+  height: 90vh;
+  /* background-color: red; */
+}
